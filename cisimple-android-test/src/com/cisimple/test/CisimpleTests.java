@@ -5,12 +5,12 @@ import android.test.AndroidTestCase;
 
 public class CisimpleTests extends AndroidTestCase
 {
-	public void willPassTest() throws Exception
+	public void testWillPass() throws Exception
 	{
 		Assert.assertTrue(true);
 	}
 	
-	public void willFailTest()
+	public void testWillFail()
 	{
 		Assert.assertTrue(false);
 	}
